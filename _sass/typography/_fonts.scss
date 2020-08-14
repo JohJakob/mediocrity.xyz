@@ -1,0 +1,27 @@
+/*
+ *
+ * SangBleu Empire
+ *
+ */
+
+// SangBleu Empire Regular
+@font-face {
+  font-family: "SangBleuEmpire";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/assets/fonts/SangBleuEmpire-Regular-WebXL.eot") format("embedded-opentype");
+  src: url("/assets/fonts/SangBleuEmpire-Regular-WebXL.woff2") format("woff2");
+  src: url("/assets/fonts/SangBleuEmpire-Regular-WebXL.woff") format("woff");
+  src: url("/assets/fonts/SangBleuEmpire-Regular-WebXL.ttf") format("truetype")
+}
+
+// SangBleu Empire Bold
+@font-face {
+  font-family: "SangBleuEmpire";
+  font-weight: bold;
+  font-style: normal;
+  src: url("/assets/fonts/SangBleuEmpire-Bold-WebXL.eot") format("embedded-opentype");
+  src: url("/assets/fonts/SangBleuEmpire-Bold-WebXL.woff2") format("woff2");
+  src: url("/assets/fonts/SangBleuEmpire-Bold-WebXL.woff") format("woff");
+  src: url("/assets/fonts/SangBleuEmpire-Bold-WebXL.ttf") format("truetype")
+}
