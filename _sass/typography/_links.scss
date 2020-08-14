@@ -1,0 +1,28 @@
+/*
+ *
+ * Link Styles
+ *
+ */
+
+// Temporary “Introducing mediocrity” link
+.a-full-background {
+  margin: 2rem;
+  background-image: url("/assets/images/introducing_mediocrity.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  display: block;
+  transition: all .2s ease;
+
+  &:hover {
+    opacity: 1
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .a-full-background {
+    margin: 4rem;
+    opacity: .8
+  }
+}

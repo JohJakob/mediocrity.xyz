@@ -1,0 +1,22 @@
+/*
+ *
+ * Global Styles
+ *
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh
+}
+
+body {
+  color: $color-white;
+  font-size: 12pt;
+  background: $color-black
+}
